@@ -1,0 +1,9 @@
+include README
+include MANIFEST.in
+utsi
+include *.txt
+include *.py
+include *.cfg
+
+global-exclude *.pyc *.pyo *.pyd
+global-exclude ffmpeg
